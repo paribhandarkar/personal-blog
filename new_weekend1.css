@@ -1,0 +1,177 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D9D8D0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #D9D8D0;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:only-of-type {
+    font-size: 3vw;
+}
+
+header a:only-of-type:hover{
+    text-decoration: underline;
+}
+
+.heading {
+    color: #BF9C88;
+    font-size: 5vw;
+    -webkit-text-stroke: 1px black;
+}
+
+nav a {
+    font-size: 2vw;
+    padding: 0px 10px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.intro {
+    display: flex;
+    font-size: 2vw;
+    padding: 50px 5%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    background-color: #D9D8D0;
+
+}
+
+img[alt='profile pic'] {
+    width: 50%;
+    margin-right: 3%;
+    border:  solid  black;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        display: block;
+        text-align: justify;
+    }
+    img[alt='profile pic'] {
+        margin-bottom: 3%;
+    }
+}
+
+.about_heading{
+    color: #D9D8D0;
+    font-size: 8vw;
+    text-align: right;
+    padding: 5%;
+}
+
+.ngp, .jdp, .rpr{
+    display: flex;
+    font-size: 2vw;
+    padding: 40px 5%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+
+img[alt='ngp'], img[alt='rpr']{
+    width: 50%;
+    margin-right: 3%;
+    border: 0.5px solid  black;
+}
+
+#about{
+    background-color: #BF9C88;
+}
+
+ strong{
+    font-size: 4vw;
+    color: rgb(45, 43, 43);
+}
+
+ span{
+    color: #D9D8D0;
+}
+
+.likes_heading{
+    color: #687E8C;
+    font-size: 8vw;
+    padding: 5%;
+}
+
+#likes{
+    background-color: #C4E5F2;
+}
+
+.cols{
+    display: flex;
+    padding: 50px 3%;
+    justify-content: space-around;
+    align-items: center;
+}
+.cols summary{
+    font-size: 3vw;
+}
+.cols p{
+    font-size: 2vw;
+    padding-top: 5%;
+}
+
+.col{
+    padding: 50px 2%;
+    width: max-content;
+}
+
+.contact_heading{
+    color: black;
+    font-size: 8vw;
+    margin-bottom: 15%;
+}
+.contact_subheading{
+    color: black;
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+#contact, #info{
+    background-color: #687E8C;
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+}
+
+.form input{
+    display: flex;
+    margin: 3% 0;
+}
+
+.form{
+    font-size: 2vw;
+}
+
+#info a{
+    font-size: 3vw;
+    text-decoration: none;
+    color: black;
+}
+
+#info a:hover{
+    text-decoration: underline;
+}
